@@ -1,4 +1,4 @@
-A text document classifier using Naive Bayes that tells the topic that the text document is most likely to be under to among the 20 topics.
+A text document classifier using Naive Bayes that tells the topic that the text document is most likely to be under to among the 20 topics. The training set was composed of 11,308 text documents and the testing set was composed of 7,538 text documents.
 
 This covers both the Versions 1 and 2 of the program
 Programming Language: Python 3
