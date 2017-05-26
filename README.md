@@ -7,6 +7,7 @@ For building the dictionary:
 2) Put the files you want to classify inside a folder named "classify" still under your working directory
 3) Run "dictionary.py" - reads and collects all the words in your training files and put it into "dictionary.txt". This excludes all the words in the "exception.txt"
 4) Run "sorter.py" - reads "dictionary.txt" and sorts all the words in it, making sure that each word appears only once. The sorted words will then be listed in "dictionary-sorted.txt"
+
 ** Steps 5 and 6 can be skipped for Version 2 but the content of "dictionary_sorted.txt" should be copied to a "f-dictionary.txt"**
 5) Run "filter.py" - reads through "dictionary-sorted.txt" and classifies certain "words"/strings according to a common format (e.g. strings who have "mb/s" under "_mb/s_") and stores it in "filtered.txt"
 6) Run "sorter-2.py" - reads "filtered.txt" and sorts all the words in it, making sure that each word/string appears only once. The sorted words will then be listed in "dictionary-sorted.txt" and "f-dictionary.txt"
