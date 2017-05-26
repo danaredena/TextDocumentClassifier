@@ -1,5 +1,6 @@
-This instruction covers both the Versions 1 and 2 of the ME 4
+A text document classifier using Naive Bayes that tells the topic that the text document is most likely to be under to among the 20 topics.
 
+This covers both the Versions 1 and 2 of the ME 4
 Programming Language: Python 3
 
 For building the dictionary:
